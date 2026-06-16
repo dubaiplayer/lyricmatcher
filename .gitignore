@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dataset
+Backend/spotify_millsongdata.csv
+
+# Cache files
+Backend/recommender_cache/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
