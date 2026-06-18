@@ -1,20 +1,41 @@
+# =========================
 # Python
+# =========================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 .venv/
 venv/
 
-# Dataset
+# =========================
+# Backend data & caches
+# =========================
 Backend/spotify_millsongdata.csv
-
-# Cache files
 Backend/recommender_cache/
 
-# Node
-node_modules/
-dist/
-build/
+# =========================
+# Frontend
+# =========================
+lyric-vibe-match/node_modules/
+lyric-vibe-match/dist/
+lyric-vibe-match/build/
+lyric-vibe-match/.vite/
 
-# Environment variables
+# =========================
+# Environment files
+# =========================
 .env
 .env.local
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
